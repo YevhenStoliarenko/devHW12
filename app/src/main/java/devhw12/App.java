@@ -18,6 +18,7 @@ public class App {
         person.put("firstname", "Eugen");
         person.put("lastname", "Stoliarenko");
         person.put("lastname1", "Stoliarenko1");
+        person.put("lastname2", "Stoliarenko2");
         System.out.println(new Gson().toJson(person));
 
     }
